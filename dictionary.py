@@ -1,7 +1,7 @@
 duplicate_student={}
-student={"Bharathi":"25","Hari":"100","Muthu":"90","Ram":"50"}
+student={"vasanth":80,"hari":60,"bharathi":90,"anandaraj":20}
 for key,value in student.items():
-    if  int(value)>40:
+    if  int(value)>30:
         duplicate_student[key] = value
 print(duplicate_student)
     
